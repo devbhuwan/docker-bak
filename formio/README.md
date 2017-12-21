@@ -9,8 +9,7 @@ services:
     ports:
       - 27017:27017
   formio:
-    build: .
-    image: devbhuwan/formio
+    image: x-cloud-school/formio
     container_name: "formIoAPIPlatform"
     ports:
       - 3001:3001
