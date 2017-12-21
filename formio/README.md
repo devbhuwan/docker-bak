@@ -24,7 +24,7 @@ services:
 docker-compose up
 ```
 - More Detail
- https://github.com/labcart/docker/tree/master/formio
+ https://github.com/x-cloud-school/docker/tree/master/formio
 
 - How to login ?
 Default username `admin@admin.com` and password `admin`
