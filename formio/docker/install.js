@@ -23,7 +23,7 @@ module.exports = function (formio, items, done) {
   // The application they wish to install.
   var application = '';
   var templateFile = '';
-  var clientBranch = 'master';
+  var clientBranch = 'DESIGNER-1.0.0';
   /**
    * Download a zip file.
    *
@@ -176,7 +176,7 @@ module.exports = function (formio, items, done) {
 
       // Download the client.
       download(
-        'https://codeload.github.com/formio/formio-app-formio/zip/' + clientBranch,
+        'https://codeload.github.com/x-cloud-school/formio-app-formio/zip/' + clientBranch,
         'client.zip',
         'client',
         done
